@@ -3,3 +3,5 @@
 
 3. Add descriptions of the workload to root readme.
 4. Add descriptions of the experiment environment to root readme.
+
+5. Add extensive documentation for repo structure, testbench, and results analysis.
