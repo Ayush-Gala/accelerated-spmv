@@ -1,5 +1,8 @@
 # SpMV-CUDA implementation
 
+![Performance Graph - Small Matrices](../static/media/exp2_small.jpg)
+![Performance Graph - Large Matrices](../static/media/exp2_large.jpg)
+
 ## CUDA Kernel: `coo_spmv_kernel`
 
 ```cpp
