@@ -5,3 +5,5 @@
 4. Add descriptions of the experiment environment to root readme.
 
 5. Add extensive documentation for repo structure, testbench, and results analysis.
+6. Whenever I add the documentations, remember to add a section explaining how to use the batch job scripts.
+7. Mention hardware and software versions and constraints.
