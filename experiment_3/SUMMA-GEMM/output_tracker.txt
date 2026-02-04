@@ -1,0 +1,47 @@
+m           n           k           grid            job_id          status?
+
+------------------------ STAT C -------------------------------------
+
+4096        4096        4096        2x2             95401           exec complete
+8192        8192        8192        2x2             95517           -   parallel exec complete, serial TLE
+
+4096        4096        4096        4x4             95404           exec complete,
+8192        8192        8192        4x4             95884           -   parallel exec complete, serial TLE     
+16384       16384       16384       4x4             95886           -   parallel exec complete, serial TLE 
+
+4096        4096        128         2x2             95406           exec complete,
+8192        8192        128         2x2             95409           exec complete,
+16384       16384       128         2x2             96227 | 96453           -   parallel exec complete, serial TLE           
+
+4096        4096        128         4x4             95407           exec complete,
+8192        8192        128         4x4             95408           exec complete,
+16384       16384       128         4x4             95494           -   parallel exec complete, serial TLE                     
+32768       32768       128         4x4             95426           -   parallel exec complete, serial TLE
+
+32768       32768       32768       8x8             95513           - parallel exec complete, serial TLE          
+         
+32768       32768       128         8x8             96238           r
+
+
+
+------------------------ STAT A -------------------------------------
+
+4096        4096        4096        2x2             95430           exec complete,
+8192        8192        8192        2x2             95537           -   parallel exec complete, serial TLE
+
+4096        4096        4096        4x4             95885           exec complete,           
+8192        8192        8192        4x4             95518           -   parallel exec complete, serial TLE
+16384       16384       16384       4x4             96534           -   parallel exec complete, serial TLE          
+
+4096        4096        128         2x2             96450           exec complete,
+8192        8192        128         2x2             96451           exec complete,
+16384       16384       128         2x2             96223 cmp 96430 -   parallel exec complete, serial TLE ----> something went wrong I guess
+
+4096        4096        128         4x4             95432           exec complete,
+8192        8192        128         4x4             95892           exec complete,
+16384       16384       128         4x4             95893           - parallel exec complete, serial TLE
+32768       32768       128         4x4             95894           exec complete,
+
+32768       32768       32768       8x8             95449           
+
+32768       32768       128         8x8             96236           r
