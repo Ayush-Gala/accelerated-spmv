@@ -1,9 +1,10 @@
 1. Test testing procedure file to see if it is working correctly -- done
 2. Modify all programs to use the compare.sh testing framework included -- done
 
-3. Add descriptions of the workload to root readme. 
-4. Add descriptions of the experiment environment to root readme.
+3. Add descriptions of the workload to root readme.  -- done
+4. Add descriptions of the experiment environment to root readme. -- done
 
-5. Add extensive documentation for repo structure, testbench, and results analysis.
+5. Add extensive documentation for repo structure, testbench, and results analysis. -- done
 6. Whenever I add the documentations, remember to add a section explaining how to use the batch job scripts.
-7. Mention hardware and software versions and constraints.
+7. Mention hardware and software versions and constraints. -- done
+8. The README has become too long. Explore breaking the docs down into separate files/folders.
