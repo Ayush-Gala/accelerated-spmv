@@ -1,7 +1,7 @@
-1. Test testing procedure file to see if it is working correctly
-2. Modify all programs to use the compare.sh testing framework included --- (for those not possible explain why)
+1. Test testing procedure file to see if it is working correctly -- done
+2. Modify all programs to use the compare.sh testing framework included -- done
 
-3. Add descriptions of the workload to root readme.
+3. Add descriptions of the workload to root readme. 
 4. Add descriptions of the experiment environment to root readme.
 
 5. Add extensive documentation for repo structure, testbench, and results analysis.
